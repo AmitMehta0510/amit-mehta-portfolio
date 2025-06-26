@@ -106,12 +106,12 @@ const Projects = () => {
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase">MERN PORTFOLIO</h5>
                   </div>
-                  <a className="ad-btn" href="view">
+                  <a className="ad-btn" href="https://amit-mehta-portfolio-cumu.onrender.com">
                     View Live
                   </a>
                   <a
                     className="ad-btn"
-                    href="https://github.com/AmitMehta0510/wanderlust"
+                    href="https://github.com/AmitMehta0510/amit-mehta-portfolio"
                   >
                     Source Code
                   </a>
