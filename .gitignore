@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+client/build/
+
+# Optional: ignore dist if you build backend
+dist/
+
+# IDEs
+.vscode/
+.idea/
