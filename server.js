@@ -16,8 +16,6 @@ app.use(cors());
 // backend API routes
 app.use("/api/v1/portfolio", require("./routes/portfolioRoute"));
 
-const path = require("path");
-
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, "client", "build")));
 
