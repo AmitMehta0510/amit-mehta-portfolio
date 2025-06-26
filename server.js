@@ -26,9 +26,10 @@ app.get("*", (req, res) => {
 
 // port
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => {
-  console.log(`Server Running on PORT ${PORT}`);
-});
+const HOST = '0.0.0.0';
 
+app.listen(PORT, HOST, () => {
+  console.log(`Server running on http://${HOST}:${PORT}`);
+});
 
 
