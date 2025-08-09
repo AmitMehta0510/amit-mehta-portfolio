@@ -1,4 +1,4 @@
-import React from "react";
+import portfolio from "../../assets/images/portfolio.png";
 import "./Projects.css";
 import Spin from "react-reveal/Spin";
 const Projects = () => {
@@ -92,7 +92,7 @@ const Projects = () => {
                 <div className="card-image">
                   <span className="card-notify-badge"> Portfolio</span>
                   <img
-                    src="..\assets\images\portfolio"
+                    src={portfolio}
                     alt="portfolio"
                   />
                 </div>
